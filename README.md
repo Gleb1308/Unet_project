@@ -58,7 +58,7 @@ Detailed information you can get by such command - python train.py --help
 
 If you want use already trained model in inference mode you can run file inference.py:
 ```bash
-!python inference.py --checkpoint_path_load ./rmsprop_bce_ep40/my_checkpoint --save_fig --save_preds
+python inference.py --checkpoint_path_load ./rmsprop_bce_ep40/my_checkpoint --save_fig --save_preds
 ```
 Command (inference.py --save_preds) saves predicted masks in run-length encoding format.
 Detailed information you can get by such command - python inference.py --help
